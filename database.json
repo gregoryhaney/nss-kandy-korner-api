@@ -66,9 +66,9 @@
     { "id": 5, "type": "bar" }, 
     { "id": 6, "type": "stick" }, 
     { "id": 7, "type": "ball" }, 
-    { "id": 8, "type": "liquid" }, 
+    { "id": 8, "type": "soda" }, 
     { "id": 9, "type": "powder" }, 
-    { "id": 10, "type": "roll" }
+    { "id": 10, "type": "chocolate" }
 ],
 
 "customers": [
@@ -96,286 +96,45 @@
 ],
 
 "purchases": [
-    {
-        "id": 1,
-        "amountSpent": "$189.23",
-        "date": "5/22/2021",
-        "customerId": 2, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 2,
-        "amountSpent": "$123.09",
-        "date": "12/16/2021",
-        "customerId": 10, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 3,
-        "amountSpent": "$73.52",
-        "date": "3/28/2021",
-        "customerId": 4, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 4,
-        "amountSpent": "$422.34",
-        "date": "3/29/2021",
-        "customerId": 1, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 5,
-        "amountSpent": "$428.82",
-        "date": "10/31/2021", 
-        "customerId": 4, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 6,
-        "amountSpent": "$290.37",
-        "date": "9/18/2021",
-        "customerId": 14, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 7,
-        "amountSpent": "$464.94",
-        "date": "10/20/2021",
-        "customerId": 1, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 8,
-        "amountSpent": "$148.89",
-        "date": "5/30/2021", 
-        "customerId": 6, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 9,
-        "amountSpent": "$188.30",
-        "date": "9/28/2021",
-        "customerId": 11, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 10,
-        "amountSpent": "$19.70",
-        "date": "9/26/2021",
-        "customerId": 9, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 11,
-        "amountSpent": "$115.90",
-        "date": "2/24/2021",
-        "customerId": 7, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 12,
-        "amountSpent": "$189.19",
-        "date": "3/11/2021",
-        "customerId": 6, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 13,
-        "amountSpent": "$365.67",
-        "date": "10/2/2021",
-        "customerId": 14, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 14,
-        "amountSpent": "$43.61",
-        "date": "1/6/2022",
-        "customerId": 6, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 15,
-        "amountSpent": "$433.33",
-        "date": "10/9/2021",
-        "customerId": 16, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 16,
-        "amountSpent": "$73.83",
-        "date": "3/11/2021",
-        "customerId": 7, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 17,
-        "amountSpent": "$14.06",
-        "date": "1/6/2022",
-        "customerId": 4, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 18,
-        "amountSpent": "$239.36",
-        "date": "5/26/2021",
-        "customerId": 3, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 19,
-        "amountSpent": "$37.98",
-        "date": "7/12/2021",
-        "customerId": 9, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 20,
-        "amountSpent": "$223.77",
-        "date": "9/27/2021",
-        "customerId": 15, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 21,
-        "amountSpent": "$8.44",
-        "date": "8/22/2021", 
-        "customerId": 5, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 22,
-        "amountSpent": "$481.68",
-        "date": "2/4/2022",
-        "customerId": 11, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 23,
-        "amountSpent": "$49.02",
-        "date": "4/21/2021",
-        "customerId": 18, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 24,
-        "amountSpent": "$188.63",
-        "date": "4/28/2021",
-        "customerId": 3, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 25,
-        "amountSpent": "$432.36",
-        "date": "1/5/2022",
-        "customerId": 1, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 26,
-        "amountSpent": "$282.21",
-        "date": "9/27/2021",
-        "customerId": 7, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 27,
-        "amountSpent": "$198.79",
-        "date": "4/11/2021",
-        "customerId": 17, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 28,
-        "amountSpent": "$280.64",
-        "date": "3/11/2021",
-        "customerId": 13, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 29,
-        "amountSpent": "$39.38",
-        "date": "5/28/2021",
-        "customerId": 16, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 30,
-        "amountSpent": "$5.07",
-        "date": "10/3/2021", 
-        "customerId": 17, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 31,
-        "amountSpent": "$354.68",
-        "date": "1/8/2022",
-        "customerId": 17, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 32,
-        "amountSpent": "$391.14",
-        "date": "3/30/2021",
-        "customerId": 16, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 33,
-        "amountSpent": "$409.29",
-        "date": "8/31/2021", 
-        "customerId": 4, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 34,
-        "amountSpent": "$339.98",
-        "date": "9/13/2021",
-        "customerId": 5, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 35,
-        "amountSpent": "$254.15",
-        "date": "12/29/2021",
-        "customerId": 7, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 36,
-        "amountSpent": "$474.62",
-        "date": "4/24/2021",
-        "customerId": 4, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 37,
-        "amountSpent": "$242.50",
-        "date": "3/19/2021",
-        "customerId": 9, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 38,
-        "amountSpent": "$13.93",
-        "date": "12/7/2021",
-        "customerId": 11, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 39,
-        "amountSpent": "$300.45",
-        "date": "5/12/2021",
-        "customerId": 18, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }, {
-        "id": 40,
-        "amountSpent": "$415.78",
-        "date": "9/9/2021",
-        "customerId": 2, 
-        "purchaseLocationId": 1,
-        "productId": 2
-      }
+    { "id": 1, "amountSpent": "$189.23", "date": "5/22/2021", "customerId": 2, "purchaseLocationId": 1, "productId": 2 }, 
+      { "id": 2, "amountSpent": "$123.09", "date": "12/16/2021", "customerId": 10, "purchaseLocationId": 3, "productId": 1 }, 
+      { "id": 3, "amountSpent": "$73.52", "date": "3/28/2021", "customerId": 4, "purchaseLocationId": 4, "productId": 4 }, 
+      { "id": 4, "amountSpent": "$422.34", "date": "3/29/2021", "customerId": 1, "purchaseLocationId": 5, "productId": 7 }, 
+      { "id": 5, "amountSpent": "$428.82", "date": "10/31/2021", "customerId": 4, "purchaseLocationId": 2, "productId": 8 }, 
+      { "id": 6, "amountSpent": "$290.37", "date": "9/18/2021", "customerId": 14, "purchaseLocationId": 6, "productId": 3 }, 
+      { "id": 7, "amountSpent": "$464.94", "date": "10/20/2021", "customerId": 1, "purchaseLocationId": 7, "productId": 1 }, 
+      { "id": 8, "amountSpent": "$148.89", "date": "5/30/2021", "customerId": 6, "purchaseLocationId": 7, "productId": 1 }, 
+      { "id": 9, "amountSpent": "$188.30", "date": "9/28/2021", "customerId": 11, "purchaseLocationId": 6, "productId": 5 }, 
+      { "id": 10, "amountSpent": "$19.70", "date": "9/26/2021", "customerId": 9, "purchaseLocationId": 5, "productId": 10 }, 
+      { "id": 11, "amountSpent": "$115.90", "date": "2/24/2021", "customerId": 7, "purchaseLocationId": 3, "productId": 9 }, 
+      { "id": 12, "amountSpent": "$189.19", "date": "3/11/2021", "customerId": 6, "purchaseLocationId": 6, "productId": 5 }, 
+      { "id": 13, "amountSpent": "$365.67", "date": "10/2/2021", "customerId": 14, "purchaseLocationId": 1, "productId": 6 }, 
+      { "id": 14, "amountSpent": "$43.61", "date": "1/6/2022", "customerId": 6, "purchaseLocationId": 3, "productId": 3 }, 
+      { "id": 15, "amountSpent": "$433.33", "date": "10/9/2021", "customerId": 16, "purchaseLocationId": 2, "productId": 4 }, 
+      { "id": 16, "amountSpent": "$73.83", "date": "3/11/2021", "customerId": 7, "purchaseLocationId": 7, "productId": 7 }, 
+      { "id": 17, "amountSpent": "$14.06", "date": "1/6/2022", "customerId": 4, "purchaseLocationId": 7, "productId": 9 }, 
+      { "id": 18, "amountSpent": "$239.36", "date": "5/26/2021", "customerId": 3, "purchaseLocationId": 7, "productId": 8 }, 
+      { "id": 19, "amountSpent": "$37.98", "date": "7/12/2021", "customerId": 9, "purchaseLocationId": 5, "productId": 10 }, 
+      { "id": 20, "amountSpent": "$223.77", "date": "9/27/2021", "customerId": 15, "purchaseLocationId": 8, "productId": 10 }, 
+      { "id": 21, "amountSpent": "$8.44", "date": "8/22/2021", "customerId": 5, "purchaseLocationId": 7, "productId": 3 }, 
+      { "id": 22, "amountSpent": "$481.68", "date": "2/4/2022", "customerId": 11, "purchaseLocationId": 8, "productId": 1 }, 
+      { "id": 23, "amountSpent": "$49.02", "date": "4/21/2021", "customerId": 18, "purchaseLocationId": 5, "productId": 1 }, 
+      { "id": 24, "amountSpent": "$188.63", "date": "4/28/2021", "customerId": 3, "purchaseLocationId": 1, "productId": 2 }, 
+      { "id": 25, "amountSpent": "$432.36", "date": "1/5/2022", "customerId": 1, "purchaseLocationId": 2, "productId": 4 }, 
+      { "id": 26, "amountSpent": "$282.21", "date": "9/27/2021", "customerId": 7, "purchaseLocationId": 5, "productId": 5 }, 
+      { "id": 27, "amountSpent": "$198.79", "date": "4/11/2021", "customerId": 17, "purchaseLocationId": 3, "productId": 7 }, 
+      { "id": 28, "amountSpent": "$280.64", "date": "3/11/2021", "customerId": 13, "purchaseLocationId": 6, "productId": 6 }, 
+      { "id": 29, "amountSpent": "$39.38", "date": "5/28/2021", "customerId": 16, "purchaseLocationId": 8, "productId": 6 }, 
+      { "id": 30, "amountSpent": "$5.07", "date": "10/3/2021", "customerId": 17, "purchaseLocationId": 7, "productId": 7 }, 
+      { "id": 31, "amountSpent": "$354.68", "date": "1/8/2022", "customerId": 17, "purchaseLocationId": 5, "productId": 3 }, 
+      { "id": 32, "amountSpent": "$391.14", "date": "3/30/2021", "customerId": 16, "purchaseLocationId": 5, "productId": 8 }, 
+      { "id": 33, "amountSpent": "$409.29", "date": "8/31/2021", "customerId": 4, "purchaseLocationId": 3, "productId": 9 }, 
+      { "id": 34, "amountSpent": "$339.98", "date": "9/13/2021", "customerId": 5, "purchaseLocationId": 4, "productId": 9 }, 
+      { "id": 35, "amountSpent": "$254.15", "date": "12/29/2021", "customerId": 7, "purchaseLocationId": 1, "productId": 2 }, 
+      { "id": 36, "amountSpent": "$474.62", "date": "4/24/2021", "customerId": 4, "purchaseLocationId": 4, "productId": 1 }, 
+      { "id": 37, "amountSpent": "$242.50", "date": "3/19/2021", "customerId": 9, "purchaseLocationId": 7, "productId": 3 }, 
+      { "id": 38, "amountSpent": "$13.93", "date": "12/7/2021", "customerId": 11, "purchaseLocationId": 8, "productId": 4 }, 
+      { "id": 39, "amountSpent": "$300.45", "date": "5/12/2021", "customerId": 18, "purchaseLocationId": 8, "productId": 8 }
+      
 ]
 }
