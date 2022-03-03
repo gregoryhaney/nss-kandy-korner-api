@@ -1,140 +1,902 @@
 {
-"locations": [
-    { "id": 1, "address": "7 Fuller Alley", "state": "A8", "country": "France" }, 
-    { "id": 2, "address": "9 Calypso Center", "state": null, "country": "China" }, 
-    { "id": 3, "address": "6528 Brickson Park Street", "state": null, "country": "China" }, 
-    { "id": 4, "address": "9 Hazelcrest Circle", "state": null, "country": "Indonesia" }, 
-    { "id": 5, "address": "1584 Golf View Crossing", "state": null, "country": "Colombia" }, 
-    { "id": 6, "address": "2380 Badeau Junction", "state": null, "country": "Colombia" }, 
-    { "id": 7, "address": "71209 Lawn Way", "state": null, "country": "China" }, 
-    { "id": 8, "address": "118 Warner Plaza", "state": "DC", "country": "United States" }
-],
-
-"products": [
-    { "id": 1, "name": "Mushrooms", "cost": "$7.96", "productTypeId": 1 }, 
-    { "id": 2, "name": "CrabbyCakes", "cost": "$4.22", "productTypeId": 3 }, 
-    { "id": 3, "name": "Beans", "cost": "$5.36", "productTypeId": 3 }, 
-    { "id": 4, "name": "GummiWorms", "cost": "$2.02", "productTypeId": 4 }, 
-    { "id": 5, "name": "Oreo", "cost": "$1.36", "coproductTypeIdlor": 5 }, 
-    { "id": 6, "name": "Pork", "cost": "$1.58", "productTypeId": 9 }, 
-    { "id": 7, "name": "Spring Roll, Veg", "cost": "$8.57", "productTypeId": 5 }, 
-    { "id": 8, "name": "Graham Crackers", "cost": "$9.05", "productTypeId": 8 }, 
-    { "id": 9, "name": "Animal Crackers", "cost": "$7.63", "productTypeId": 8 }, 
-    { "id": 10, "name": "Salted Taffy", "cost": "$3.39", "productTypeId": 8 }, 
-    { "id": 11, "name": "Minty Fresh Gumballs", "cost": "$1.46", "productTypeId": 7 }, 
-    { "id": 12, "name": "JawBuster", "cost": "$3.09", "productTypeId": 10 }, 
-    { "id": 13, "name": "Cereal Nut Cookies", "cost": "$3.37", "productTypeId": 2 }, 
-    { "id": 14, "name": "Cream Cheese", "cost": "$1.42", "productTypeId": 6 }, 
-    { "id": 15, "name": "Sultanas", "cost": "$7.48", "productTypeId": 6 }, 
-    { "id": 16, "name": "Muffin Harvest", "cost": "$6.57", "productTypeId": 9 }, 
-    { "id": 17, "name": "WhinAndCry Candy Cane", "cost": "$9.21", "productTypeId": 1 }, 
-    { "id": 18, "name": "Zero Bar", "cost": "$2.80", "productTypeId": 1 }, 
-    { "id": 19, "name": "Eggplant Delight Bar", "cost": "$1.60", "productTypeId": 3 }, 
-    { "id": 20, "name": "Whatchamacalit Bar", "cost": "$5.77", "productTypeId": 7 }
-
-],
-
-"employees": [
-    { "id": 1, "name": "Osmund Stronough", "payRate": "$10.46", "userId": "ostronough0", "locationId": 1 }, 
-    { "id": 2, "name": "Marinna Espinazo", "payRate": "$17.76", "userId": "mespinazo1", "locationId": 2 }, 
-    { "id": 3, "name": "Tonnie Edwicke", "payRate": "$12.10", "userId": "tedwicke2", "locationId": 3 }, 
-    { "id": 4, "name": "Randy Johnson", "payRate": "$17.90", "userId": "rjohnson3", "locationId": 4 }, 
-    { "id": 5, "name": "Olag Hassekl", "payRate": "$15.96", "userId": "ohassekl4", "locationId": 5 }, 
-    { "id": 6, "name": "Juline Matskevich", "payRate": "$11.67", "userId": "jmatskevich5", "locationId": 6 }, 
-    { "id": 7, "name": "Conant Readitt", "payRate": "$13.01", "userId": "creaditt6", "locationId": 7 }, 
-    { "id": 8, "name": "Bernardina Dubbin", "payRate": "$14.71", "userId": "bdubbin7", "locationId": 8 }, 
-    { "id": 9, "name": "Buffy Woodyer", "payRate": "$10.56", "userId": "bwoodyer8", "locationId": 2 }, 
-    { "id": 10, "name": "Kent Drakes", "payRate": "$17.66", "userId": "kdrakes9", "locationId": 3 }, 
-    { "id": 11, "name": "Cecilia Virgo", "payRate": "$12.57", "userId": "cvirgoa", "locationId": 3 }, 
-    { "id": 12, "name": "Gipsy Ramshaw", "payRate": "$14.01", "userId": "gramshawb", "locationId": 1 }, 
-    { "id": 13, "name": "Rebekkah Rolfs", "payRate": "$15.04", "userId": "rrolfsc", "locationId": 3 }, 
-    { "id": 14, "name": "Mallory Hartup", "payRate": "$14.87", "userId": "mhartupd", "locationId": 7 }, 
-    { "id": 15, "name": "Rossy Priel", "payRate": "$10.19", "userId": "rpriele", "locationId": 7 }, 
-    { "id": 16, "name": "Layney Ruffell", "payRate": "$17.36", "userId": "lruffellf", "locationId": 10 }, 
-    { "id": 17, "name": "Becki Burgwyn", "payRate": "$14.81", "userId": "bburgwyng", "locationId": 9 }, 
-    { "id": 18, "name": "Bunnie Fayerbrother", "payRate": "$16.04", "userId": "bfayerbrotherh", "locationId": 2 }, 
-    { "id": 19, "name": "Trina Annell", "payRate": "$11.30", "userId": "tannelli", "locationId": 5 }, 
-    { "id": 20, "name": "Anallise McGuffie", "payRate": "$13.59", "userId": "amcguffiej", "locationId": 5 }
-
-],
-
-"productTypes": [
-    { "id": 1, "type": "pastry" }, 
-    { "id": 2, "type": "gum" }, 
-    { "id": 3, "type": "cracker" }, 
-    { "id": 4, "type": "cookie" }, 
-    { "id": 5, "type": "bar" }, 
-    { "id": 6, "type": "stick" }, 
-    { "id": 7, "type": "ball" }, 
-    { "id": 8, "type": "soda" }, 
-    { "id": 9, "type": "powder" }, 
-    { "id": 10, "type": "chocolate" }
-],
-
-"customers": [
-    { "id": 1, "name": "Dion Stoade", "address": "6866 4th Court", "email": "dstoade0@cornell.edu" },
-    { "id": 2, "name": "Windy Thorneloe", "address": "59924 Beilfuss Center", "email": "wthorneloe1@usa.gov" },
-    { "id": 3, "name": "Hillie Phillpotts", "address": "21 Straubel Point", "email": "hphillpotts2@rakuten.co.jp" },
-    { "id": 4, "name": "Jobye Danielou", "address": "7 Pleasure Terrace", "email": "jdanielou3@apple.com" },
-    { "id": 5, "name": "Gabbie Schult", "address": "46273 Oak Trail", "email": "gschult4@tinyurl.com" },
-    { "id": 6, "name": "Vasily Youdell", "address": "0993 Gulseth Avenue", "email": "vyoudell5@globo.com" },
-    { "id": 7, "name": "Debra Blackhurst", "address": "57305 Crowley Alley", "email": "dblackhurst6@last.fm" },
-    { "id": 8, "name": "Helenelizabeth Passfield", "address": "02 Reinke Plaza", "email": "hpassfield7@netvibes.com" },
-    { "id": 9, "name": "Franchot Slator", "address": "4930 Oneill Drive", "email": "fslator8@51.la" },
-    { "id": 10, "name": "Renaud Erbe", "address": "30 Westridge Pass", "email": "rerbe9@psu.edu" },
-    { "id": 11, "name": "Aloise Bernet", "address": "70556 Mariners Cove Drive", "email": "aberneta@tinypic.com" }, 
-    { "id": 12, "name": "Pauly Kirrage", "address": "8 Lighthouse Bay Way", "email": "pkirrageb@bigcartel.com" }, 
-    { "id": 13, "name": "Estell Rawstorn", "address": "04745 Longview Lane", "email": "erawstornc@phoca.cz" }, 
-    { "id": 14, "name": "Steffen Everington", "address": "848 Westport Trail", "email": "severingtond@facebook.com" }, 
-    { "id": 15, "name": "Alina Whayman", "address": "7881 Meadow Vale Court", "email": "awhaymane@bizjournals.com" }, 
-    { "id": 16, "name": "Augustine Kubach", "address": "9 Porter Crossing", "email": "akubachf@webeden.co.uk" }, 
-    { "id": 17, "name": "Chiquita Cussen", "address": "14156 Kensington Alley", "email": "ccusseng@umich.edu" }, 
-    { "id": 18, "name": "Sammy Hemphill", "address": "0619 Shelley Center", "email": "shemphillh@1688.com" }, 
-    { "id": 19, "name": "Maureen Atheis", "address": "0584 Lukken Plaza", "email": "matheisi@bbc.co.uk" }, 
-    { "id": 20, "name": "Franchot Tour", "address": "96614 Moulton Trail", "email": "ftourj@uiuc.edu" }
-
-],
-
-"purchases": [
-    { "id": 1, "amountSpent": "$189.23", "date": "5/22/2021", "customerId": 2, "purchaseLocationId": 1, "productId": 2 }, 
-      { "id": 2, "amountSpent": "$123.09", "date": "12/16/2021", "customerId": 10, "purchaseLocationId": 3, "productId": 1 }, 
-      { "id": 3, "amountSpent": "$73.52", "date": "3/28/2021", "customerId": 4, "purchaseLocationId": 4, "productId": 4 }, 
-      { "id": 4, "amountSpent": "$422.34", "date": "3/29/2021", "customerId": 1, "purchaseLocationId": 5, "productId": 7 }, 
-      { "id": 5, "amountSpent": "$428.82", "date": "10/31/2021", "customerId": 4, "purchaseLocationId": 2, "productId": 8 }, 
-      { "id": 6, "amountSpent": "$290.37", "date": "9/18/2021", "customerId": 14, "purchaseLocationId": 6, "productId": 3 }, 
-      { "id": 7, "amountSpent": "$464.94", "date": "10/20/2021", "customerId": 1, "purchaseLocationId": 7, "productId": 1 }, 
-      { "id": 8, "amountSpent": "$148.89", "date": "5/30/2021", "customerId": 6, "purchaseLocationId": 7, "productId": 1 }, 
-      { "id": 9, "amountSpent": "$188.30", "date": "9/28/2021", "customerId": 11, "purchaseLocationId": 6, "productId": 5 }, 
-      { "id": 10, "amountSpent": "$19.70", "date": "9/26/2021", "customerId": 9, "purchaseLocationId": 5, "productId": 10 }, 
-      { "id": 11, "amountSpent": "$115.90", "date": "2/24/2021", "customerId": 7, "purchaseLocationId": 3, "productId": 9 }, 
-      { "id": 12, "amountSpent": "$189.19", "date": "3/11/2021", "customerId": 6, "purchaseLocationId": 6, "productId": 5 }, 
-      { "id": 13, "amountSpent": "$365.67", "date": "10/2/2021", "customerId": 14, "purchaseLocationId": 1, "productId": 6 }, 
-      { "id": 14, "amountSpent": "$43.61", "date": "1/6/2022", "customerId": 6, "purchaseLocationId": 3, "productId": 3 }, 
-      { "id": 15, "amountSpent": "$433.33", "date": "10/9/2021", "customerId": 16, "purchaseLocationId": 2, "productId": 4 }, 
-      { "id": 16, "amountSpent": "$73.83", "date": "3/11/2021", "customerId": 7, "purchaseLocationId": 7, "productId": 7 }, 
-      { "id": 17, "amountSpent": "$14.06", "date": "1/6/2022", "customerId": 4, "purchaseLocationId": 7, "productId": 9 }, 
-      { "id": 18, "amountSpent": "$239.36", "date": "5/26/2021", "customerId": 3, "purchaseLocationId": 7, "productId": 8 }, 
-      { "id": 19, "amountSpent": "$37.98", "date": "7/12/2021", "customerId": 9, "purchaseLocationId": 5, "productId": 10 }, 
-      { "id": 20, "amountSpent": "$223.77", "date": "9/27/2021", "customerId": 15, "purchaseLocationId": 8, "productId": 10 }, 
-      { "id": 21, "amountSpent": "$8.44", "date": "8/22/2021", "customerId": 5, "purchaseLocationId": 7, "productId": 3 }, 
-      { "id": 22, "amountSpent": "$481.68", "date": "2/4/2022", "customerId": 11, "purchaseLocationId": 8, "productId": 1 }, 
-      { "id": 23, "amountSpent": "$49.02", "date": "4/21/2021", "customerId": 18, "purchaseLocationId": 5, "productId": 1 }, 
-      { "id": 24, "amountSpent": "$188.63", "date": "4/28/2021", "customerId": 3, "purchaseLocationId": 1, "productId": 2 }, 
-      { "id": 25, "amountSpent": "$432.36", "date": "1/5/2022", "customerId": 1, "purchaseLocationId": 2, "productId": 4 }, 
-      { "id": 26, "amountSpent": "$282.21", "date": "9/27/2021", "customerId": 7, "purchaseLocationId": 5, "productId": 5 }, 
-      { "id": 27, "amountSpent": "$198.79", "date": "4/11/2021", "customerId": 17, "purchaseLocationId": 3, "productId": 7 }, 
-      { "id": 28, "amountSpent": "$280.64", "date": "3/11/2021", "customerId": 13, "purchaseLocationId": 6, "productId": 6 }, 
-      { "id": 29, "amountSpent": "$39.38", "date": "5/28/2021", "customerId": 16, "purchaseLocationId": 8, "productId": 6 }, 
-      { "id": 30, "amountSpent": "$5.07", "date": "10/3/2021", "customerId": 17, "purchaseLocationId": 7, "productId": 7 }, 
-      { "id": 31, "amountSpent": "$354.68", "date": "1/8/2022", "customerId": 17, "purchaseLocationId": 5, "productId": 3 }, 
-      { "id": 32, "amountSpent": "$391.14", "date": "3/30/2021", "customerId": 16, "purchaseLocationId": 5, "productId": 8 }, 
-      { "id": 33, "amountSpent": "$409.29", "date": "8/31/2021", "customerId": 4, "purchaseLocationId": 3, "productId": 9 }, 
-      { "id": 34, "amountSpent": "$339.98", "date": "9/13/2021", "customerId": 5, "purchaseLocationId": 4, "productId": 9 }, 
-      { "id": 35, "amountSpent": "$254.15", "date": "12/29/2021", "customerId": 7, "purchaseLocationId": 1, "productId": 2 }, 
-      { "id": 36, "amountSpent": "$474.62", "date": "4/24/2021", "customerId": 4, "purchaseLocationId": 4, "productId": 1 }, 
-      { "id": 37, "amountSpent": "$242.50", "date": "3/19/2021", "customerId": 9, "purchaseLocationId": 7, "productId": 3 }, 
-      { "id": 38, "amountSpent": "$13.93", "date": "12/7/2021", "customerId": 11, "purchaseLocationId": 8, "productId": 4 }, 
-      { "id": 39, "amountSpent": "$300.45", "date": "5/12/2021", "customerId": 18, "purchaseLocationId": 8, "productId": 8 }
-      
-]
+  "locations": [
+    {
+      "id": 1,
+      "address": "7 Fuller Alley",
+      "state": "A8",
+      "country": "France"
+    },
+    {
+      "id": 2,
+      "address": "9 Calypso Center",
+      "state": "TX",
+      "country": "United States"
+    },
+    {
+      "id": 3,
+      "address": "6528 Brickson Park Street",
+      "state": "FL",
+      "country": "United States"
+    },
+    {
+      "id": 4,
+      "address": "9 Hazelcrest Circle",
+      "state": "CO",
+      "country": "United States"
+    },
+    {
+      "id": 5,
+      "address": "1584 Golf View Crossing",
+      "state": "TN",
+      "country": "United States"
+    },
+    {
+      "id": 6,
+      "address": "2380 Badeau Junction",
+      "state": "GA",
+      "country": "United States"
+    },
+    {
+      "id": 7,
+      "address": "71209 Lawyer Way",
+      "state": "A7",
+      "country": "France"
+    },
+    {
+      "id": 8,
+      "address": "118 Warner Plaza",
+      "state": "DC",
+      "country": "United States"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Mushrooms",
+      "cost": "$7.96",
+      "productTypeId": 1
+    },
+    {
+      "id": 2,
+      "name": "CrabbyCake Crackers",
+      "cost": "$4.22",
+      "productTypeId": 3
+    },
+    {
+      "id": 3,
+      "name": "Bean Flavored Crackers",
+      "cost": "$5.36",
+      "productTypeId": 3
+    },
+    {
+      "id": 4,
+      "name": "GummiCookies",
+      "cost": "$2.02",
+      "productTypeId": 4
+    },
+    {
+      "id": 5,
+      "name": "Oreo",
+      "cost": "$1.36",
+      "productTypeId": 4
+    },
+    {
+      "id": 6,
+      "name": "Pork",
+      "cost": "$1.58",
+      "productTypeId": 9
+    },
+    {
+      "id": 7,
+      "name": "Spring Roll Bar",
+      "cost": "$8.57",
+      "productTypeId": 5
+    },
+    {
+      "id": 8,
+      "name": "Graham Crackers",
+      "cost": "$9.05",
+      "productTypeId": 8
+    },
+    {
+      "id": 9,
+      "name": "Animal Crackers",
+      "cost": "$7.63",
+      "productTypeId": 8
+    },
+    {
+      "id": 10,
+      "name": "Salted Taffy",
+      "cost": "$3.39",
+      "productTypeId": 8
+    },
+    {
+      "id": 11,
+      "name": "Minty Fresh Gumballs",
+      "cost": "$1.46",
+      "productTypeId": 7
+    },
+    {
+      "id": 12,
+      "name": "JawBuster",
+      "cost": "$3.09",
+      "productTypeId": 10
+    },
+    {
+      "id": 13,
+      "name": "Cereal Nut Cookies",
+      "cost": "$3.37",
+      "productTypeId": 2
+    },
+    {
+      "id": 14,
+      "name": "Cream Cheese",
+      "cost": "$1.42",
+      "productTypeId": 6
+    },
+    {
+      "id": 15,
+      "name": "Sultanas",
+      "cost": "$7.48",
+      "productTypeId": 6
+    },
+    {
+      "id": 16,
+      "name": "Muffin Harvest",
+      "cost": "$6.57",
+      "productTypeId": 9
+    },
+    {
+      "id": 17,
+      "name": "WhinAndCry Candy Cane",
+      "cost": "$9.21",
+      "productTypeId": 1
+    },
+    {
+      "id": 18,
+      "name": "Zero Bar",
+      "cost": "$2.80",
+      "productTypeId": 1
+    },
+    {
+      "id": 19,
+      "name": "Eggplant Delight Bar",
+      "cost": "$1.60",
+      "productTypeId": 3
+    },
+    {
+      "id": 20,
+      "name": "Whatchamacalit Bar",
+      "cost": "$5.77",
+      "productTypeId": 7
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Osmund Stronough",
+      "payRate": "$10.46",
+      "locationId": 1,
+      "manager": true,
+      "fullTime": true
+    },
+    {
+      "id": 2,
+      "name": "Marinna Espinazo",
+      "payRate": "$17.76",
+      "locationId": 2,
+      "manager": false,
+      "fullTime": true
+    },
+    {
+      "id": 3,
+      "name": "Tonnie Edwicke",
+      "payRate": "$12.10",
+      "locationId": 3,
+      "manager": false,
+      "fullTime": false
+    },
+    {
+      "id": 4,
+      "name": "Randy Johnson",
+      "payRate": "$17.90",
+      "locationId": 4,
+      "manager": true,
+      "fullTime": true
+    },
+    {
+      "id": 5,
+      "name": "Olag Hassekl",
+      "payRate": "$15.96",
+      "locationId": 5,
+      "manager": false,
+      "fullTime": false
+    },
+    {
+      "id": 6,
+      "name": "Juline Matskevich",
+      "payRate": "$11.67",
+      "locationId": 6,
+      "manager": false,
+      "fullTime": true
+    },
+    {
+      "id": 7,
+      "name": "Conant Readitt",
+      "payRate": "$13.01",
+      "locationId": 7,
+      "manager": false,
+      "fullTime": false
+    },
+    {
+      "id": 8,
+      "name": "Bernardina Dubbin",
+      "payRate": "$14.71",
+      "locationId": 8,
+      "manager": true,
+      "fullTime": true
+    },
+    {
+      "id": 9,
+      "name": "Buffy Woodyer",
+      "payRate": "$10.56",
+      "locationId": 2,
+      "manager": false,
+      "fullTime": true
+    },
+    {
+      "id": 10,
+      "name": "Kent Drakes",
+      "payRate": "$17.66",
+      "locationId": 3,
+      "manager": true,
+      "fullTime": true
+    },
+    {
+      "id": 11,
+      "name": "Cecilia Virgo",
+      "payRate": "$12.57",
+      "locationId": 3,
+      "manager": false,
+      "fullTime": false
+    },
+    {
+      "id": 12,
+      "name": "Gipsy Ramshaw",
+      "payRate": "$14.01",
+      "locationId": 1,
+      "manager": true,
+      "fullTime": false
+    },
+    {
+      "id": 13,
+      "name": "Rebekkah Rolfs",
+      "payRate": "$15.04",
+      "locationId": 3,
+      "manager": false,
+      "fullTime": false
+    },
+    {
+      "id": 14,
+      "name": "Mallory Hartup",
+      "payRate": "$14.87",
+      "locationId": 7,
+      "manager": true,
+      "fullTime": true
+    },
+    {
+      "id": 15,
+      "name": "Rossy Priel",
+      "payRate": "$10.19",
+      "locationId": 7,
+      "manager": false,
+      "fullTime": true
+    },
+    {
+      "id": 16,
+      "name": "Layney Ruffell",
+      "payRate": "$17.36",
+      "locationId": 2,
+      "manager": true,
+      "fullTime": false
+    },
+    {
+      "id": 17,
+      "name": "Becki Burgwyn",
+      "payRate": "$14.81",
+      "locationId": 1,
+      "manager": false,
+      "fullTime": true
+    },
+    {
+      "id": 18,
+      "name": "Bunnie Fayerbrother",
+      "payRate": "$16.04",
+      "locationId": 2,
+      "manager": true,
+      "fullTime": true
+    },
+    {
+      "id": 19,
+      "name": "Trina Annell",
+      "payRate": "$11.30",
+      "locationId": 5,
+      "manager": false,
+      "fullTime": true
+    },
+    {
+      "id": 20,
+      "name": "Anallise McGuffie",
+      "payRate": "$13.59",
+      "locationId": 5,
+      "manager": false,
+      "fullTime": false
+    },
+    {
+      "name": "Charlie Manson",
+      "location": "3",
+      "manager": true,
+      "fullTime": true,
+      "payRate": "11.25",
+      "id": 21
+    },
+    {
+      "name": "Pepper May",
+      "location": "8",
+      "manager": "",
+      "fullTime": true,
+      "payRate": "12.50",
+      "id": 22
+    },
+    {
+      "name": "Paris Hilton",
+      "location": "8",
+      "manager": false,
+      "fullTime": true,
+      "payRate": "10.99",
+      "id": 23
+    },
+    {
+      "name": "Kalvin Kool",
+      "location": "6",
+      "manager": false,
+      "fullTime": true,
+      "payRate": "13.95",
+      "id": 24
+    },
+    {
+      "name": "Patrick Panzi",
+      "location": "3",
+      "manager": false,
+      "fullTime": false,
+      "payRate": "10.50",
+      "id": 25
+    },
+    {
+      "name": "Eddie Vedder",
+      "location": "7",
+      "manager": false,
+      "fullTime": false,
+      "payRate": "9.59",
+      "id": 26
+    },
+    {
+      "name": "Adam Corolla",
+      "location": "2",
+      "manager": false,
+      "fullTime": false,
+      "payRate": "9.35",
+      "id": 27
+    },
+    {
+      "name": "Robert Palmer",
+      "location": "3",
+      "manager": false,
+      "fullTime": true,
+      "payRate": "13.45",
+      "id": 28
+    },
+    {
+      "name": "dddd",
+      "location": 6,
+      "manager": false,
+      "fullTime": true,
+      "payRate": "2.25",
+      "id": 29
+    },
+    {
+      "name": "Max von Siddow",
+      "location": 8,
+      "manager": false,
+      "fullTime": true,
+      "payRate": "17.95",
+      "id": 30
+    },
+    {
+      "name": "Billy Ray",
+      "location": 3,
+      "manager": false,
+      "fullTime": true,
+      "payRate": "11.95",
+      "id": 31
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "type": "pastry"
+    },
+    {
+      "id": 2,
+      "type": "gum"
+    },
+    {
+      "id": 3,
+      "type": "cracker"
+    },
+    {
+      "id": 4,
+      "type": "cookie"
+    },
+    {
+      "id": 5,
+      "type": "bar"
+    },
+    {
+      "id": 6,
+      "type": "stick"
+    },
+    {
+      "id": 7,
+      "type": "ball"
+    },
+    {
+      "id": 8,
+      "type": "soda"
+    },
+    {
+      "id": 9,
+      "type": "powder"
+    },
+    {
+      "id": 10,
+      "type": "chocolate"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Dion Stoade",
+      "address": "6866 4th Court",
+      "email": "dstoade0@cornell.edu"
+    },
+    {
+      "id": 2,
+      "name": "Windy Thorneloe",
+      "address": "59924 Beilfuss Center",
+      "email": "wthorneloe1@usa.gov"
+    },
+    {
+      "id": 3,
+      "name": "Hillie Phillpotts",
+      "address": "21 Straubel Point",
+      "email": "hphillpotts2@rakuten.co.jp"
+    },
+    {
+      "id": 4,
+      "name": "Jobye Danielou",
+      "address": "7 Pleasure Terrace",
+      "email": "jdanielou3@apple.com"
+    },
+    {
+      "id": 5,
+      "name": "Gabbie Schult",
+      "address": "46273 Oak Trail",
+      "email": "gschult4@tinyurl.com"
+    },
+    {
+      "id": 6,
+      "name": "Vasily Youdell",
+      "address": "0993 Gulseth Avenue",
+      "email": "vyoudell5@globo.com"
+    },
+    {
+      "id": 7,
+      "name": "Debra Blackhurst",
+      "address": "57305 Crowley Alley",
+      "email": "dblackhurst6@last.fm"
+    },
+    {
+      "id": 8,
+      "name": "Helenelizabeth Passfield",
+      "address": "02 Reinke Plaza",
+      "email": "hpassfield7@netvibes.com"
+    },
+    {
+      "id": 9,
+      "name": "Franchot Slator",
+      "address": "4930 Oneill Drive",
+      "email": "fslator8@51.la"
+    },
+    {
+      "id": 10,
+      "name": "Renaud Erbe",
+      "address": "30 Westridge Pass",
+      "email": "rerbe9@psu.edu"
+    },
+    {
+      "id": 11,
+      "name": "Aloise Bernet",
+      "address": "70556 Mariners Cove Drive",
+      "email": "aberneta@tinypic.com"
+    },
+    {
+      "id": 12,
+      "name": "Pauly Kirrage",
+      "address": "8 Lighthouse Bay Way",
+      "email": "pkirrageb@bigcartel.com"
+    },
+    {
+      "id": 13,
+      "name": "Estell Rawstorn",
+      "address": "04745 Longview Lane",
+      "email": "erawstornc@phoca.cz"
+    },
+    {
+      "id": 14,
+      "name": "Steffen Everington",
+      "address": "848 Westport Trail",
+      "email": "severingtond@facebook.com"
+    },
+    {
+      "id": 15,
+      "name": "Alina Whayman",
+      "address": "7881 Meadow Vale Court",
+      "email": "awhaymane@bizjournals.com"
+    },
+    {
+      "id": 16,
+      "name": "Augustine Kubach",
+      "address": "9 Porter Crossing",
+      "email": "akubachf@webeden.co.uk"
+    },
+    {
+      "id": 17,
+      "name": "Chiquita Cussen",
+      "address": "14156 Kensington Alley",
+      "email": "ccusseng@umich.edu"
+    },
+    {
+      "id": 18,
+      "name": "Sammy Hemphill",
+      "address": "0619 Shelley Center",
+      "email": "shemphillh@1688.com"
+    },
+    {
+      "id": 19,
+      "name": "Maureen Atheis",
+      "address": "0584 Lukken Plaza",
+      "email": "matheisi@bbc.co.uk"
+    },
+    {
+      "id": 20,
+      "name": "Franchot Tour",
+      "address": "96614 Moulton Trail",
+      "email": "ftourj@uiuc.edu"
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "amountSpent": "$189.23",
+      "date": "5/22/2021",
+      "customerId": 2,
+      "purchaseLocationId": 1,
+      "productId": 2
+    },
+    {
+      "id": 2,
+      "amountSpent": "$123.09",
+      "date": "12/16/2021",
+      "customerId": 10,
+      "purchaseLocationId": 3,
+      "productId": 1
+    },
+    {
+      "id": 3,
+      "amountSpent": "$73.52",
+      "date": "3/28/2021",
+      "customerId": 4,
+      "purchaseLocationId": 4,
+      "productId": 4
+    },
+    {
+      "id": 4,
+      "amountSpent": "$422.34",
+      "date": "3/29/2021",
+      "customerId": 1,
+      "purchaseLocationId": 5,
+      "productId": 7
+    },
+    {
+      "id": 5,
+      "amountSpent": "$428.82",
+      "date": "10/31/2021",
+      "customerId": 4,
+      "purchaseLocationId": 2,
+      "productId": 8
+    },
+    {
+      "id": 6,
+      "amountSpent": "$290.37",
+      "date": "9/18/2021",
+      "customerId": 14,
+      "purchaseLocationId": 6,
+      "productId": 3
+    },
+    {
+      "id": 7,
+      "amountSpent": "$464.94",
+      "date": "10/20/2021",
+      "customerId": 1,
+      "purchaseLocationId": 7,
+      "productId": 1
+    },
+    {
+      "id": 8,
+      "amountSpent": "$148.89",
+      "date": "5/30/2021",
+      "customerId": 6,
+      "purchaseLocationId": 7,
+      "productId": 1
+    },
+    {
+      "id": 9,
+      "amountSpent": "$188.30",
+      "date": "9/28/2021",
+      "customerId": 11,
+      "purchaseLocationId": 6,
+      "productId": 5
+    },
+    {
+      "id": 10,
+      "amountSpent": "$19.70",
+      "date": "9/26/2021",
+      "customerId": 9,
+      "purchaseLocationId": 5,
+      "productId": 10
+    },
+    {
+      "id": 11,
+      "amountSpent": "$115.90",
+      "date": "2/24/2021",
+      "customerId": 7,
+      "purchaseLocationId": 3,
+      "productId": 9
+    },
+    {
+      "id": 12,
+      "amountSpent": "$189.19",
+      "date": "3/11/2021",
+      "customerId": 6,
+      "purchaseLocationId": 6,
+      "productId": 5
+    },
+    {
+      "id": 13,
+      "amountSpent": "$365.67",
+      "date": "10/2/2021",
+      "customerId": 14,
+      "purchaseLocationId": 1,
+      "productId": 6
+    },
+    {
+      "id": 14,
+      "amountSpent": "$43.61",
+      "date": "1/6/2022",
+      "customerId": 6,
+      "purchaseLocationId": 3,
+      "productId": 3
+    },
+    {
+      "id": 15,
+      "amountSpent": "$433.33",
+      "date": "10/9/2021",
+      "customerId": 16,
+      "purchaseLocationId": 2,
+      "productId": 4
+    },
+    {
+      "id": 16,
+      "amountSpent": "$73.83",
+      "date": "3/11/2021",
+      "customerId": 7,
+      "purchaseLocationId": 7,
+      "productId": 7
+    },
+    {
+      "id": 17,
+      "amountSpent": "$14.06",
+      "date": "1/6/2022",
+      "customerId": 4,
+      "purchaseLocationId": 7,
+      "productId": 9
+    },
+    {
+      "id": 18,
+      "amountSpent": "$239.36",
+      "date": "5/26/2021",
+      "customerId": 3,
+      "purchaseLocationId": 7,
+      "productId": 8
+    },
+    {
+      "id": 19,
+      "amountSpent": "$37.98",
+      "date": "7/12/2021",
+      "customerId": 9,
+      "purchaseLocationId": 5,
+      "productId": 10
+    },
+    {
+      "id": 20,
+      "amountSpent": "$223.77",
+      "date": "9/27/2021",
+      "customerId": 15,
+      "purchaseLocationId": 8,
+      "productId": 10
+    },
+    {
+      "id": 21,
+      "amountSpent": "$8.44",
+      "date": "8/22/2021",
+      "customerId": 5,
+      "purchaseLocationId": 7,
+      "productId": 3
+    },
+    {
+      "id": 22,
+      "amountSpent": "$481.68",
+      "date": "2/4/2022",
+      "customerId": 11,
+      "purchaseLocationId": 8,
+      "productId": 1
+    },
+    {
+      "id": 23,
+      "amountSpent": "$49.02",
+      "date": "4/21/2021",
+      "customerId": 18,
+      "purchaseLocationId": 5,
+      "productId": 1
+    },
+    {
+      "id": 24,
+      "amountSpent": "$188.63",
+      "date": "4/28/2021",
+      "customerId": 3,
+      "purchaseLocationId": 1,
+      "productId": 2
+    },
+    {
+      "id": 25,
+      "amountSpent": "$432.36",
+      "date": "1/5/2022",
+      "customerId": 1,
+      "purchaseLocationId": 2,
+      "productId": 4
+    },
+    {
+      "id": 26,
+      "amountSpent": "$282.21",
+      "date": "9/27/2021",
+      "customerId": 7,
+      "purchaseLocationId": 5,
+      "productId": 5
+    },
+    {
+      "id": 27,
+      "amountSpent": "$198.79",
+      "date": "4/11/2021",
+      "customerId": 17,
+      "purchaseLocationId": 3,
+      "productId": 7
+    },
+    {
+      "id": 28,
+      "amountSpent": "$280.64",
+      "date": "3/11/2021",
+      "customerId": 13,
+      "purchaseLocationId": 6,
+      "productId": 6
+    },
+    {
+      "id": 29,
+      "amountSpent": "$39.38",
+      "date": "5/28/2021",
+      "customerId": 16,
+      "purchaseLocationId": 8,
+      "productId": 6
+    },
+    {
+      "id": 30,
+      "amountSpent": "$8.57",
+      "date": "10/3/2021",
+      "customerId": 17,
+      "purchaseLocationId": 7,
+      "productId": 7
+    },
+    {
+      "id": 31,
+      "amountSpent": "$354.68",
+      "date": "1/8/2022",
+      "customerId": 17,
+      "purchaseLocationId": 5,
+      "productId": 3
+    },
+    {
+      "id": 32,
+      "amountSpent": "$391.14",
+      "date": "3/30/2021",
+      "customerId": 16,
+      "purchaseLocationId": 5,
+      "productId": 8
+    },
+    {
+      "id": 33,
+      "amountSpent": "$409.29",
+      "date": "8/31/2021",
+      "customerId": 4,
+      "purchaseLocationId": 3,
+      "productId": 9
+    },
+    {
+      "id": 34,
+      "amountSpent": "$339.98",
+      "date": "9/13/2021",
+      "customerId": 5,
+      "purchaseLocationId": 4,
+      "productId": 9
+    },
+    {
+      "id": 35,
+      "amountSpent": "$254.15",
+      "date": "12/29/2021",
+      "customerId": 7,
+      "purchaseLocationId": 1,
+      "productId": 2
+    },
+    {
+      "id": 36,
+      "amountSpent": "$474.62",
+      "date": "4/24/2021",
+      "customerId": 4,
+      "purchaseLocationId": 4,
+      "productId": 1
+    },
+    {
+      "id": 37,
+      "amountSpent": "$242.50",
+      "date": "3/19/2021",
+      "customerId": 9,
+      "purchaseLocationId": 7,
+      "productId": 3
+    },
+    {
+      "id": 38,
+      "amountSpent": "$13.93",
+      "date": "12/7/2021",
+      "customerId": 11,
+      "purchaseLocationId": 8,
+      "productId": 4
+    },
+    {
+      "id": 39,
+      "amountSpent": "$300.45",
+      "date": "5/12/2021",
+      "customerId": 18,
+      "purchaseLocationId": 8,
+      "productId": 8
+    }
+  ]
 }
