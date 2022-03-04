@@ -293,132 +293,12 @@
       "fullTime": true
     },
     {
-      "id": 16,
-      "name": "Layney Ruffell",
-      "payRate": "$17.36",
-      "locationId": 2,
-      "manager": true,
-      "fullTime": false
-    },
-    {
-      "id": 17,
-      "name": "Becki Burgwyn",
-      "payRate": "$14.81",
-      "locationId": 1,
-      "manager": false,
-      "fullTime": true
-    },
-    {
-      "id": 18,
-      "name": "Bunnie Fayerbrother",
-      "payRate": "$16.04",
-      "locationId": 2,
-      "manager": true,
-      "fullTime": true
-    },
-    {
-      "id": 19,
-      "name": "Trina Annell",
-      "payRate": "$11.30",
-      "locationId": 5,
-      "manager": false,
-      "fullTime": true
-    },
-    {
-      "id": 20,
-      "name": "Anallise McGuffie",
-      "payRate": "$13.59",
-      "locationId": 5,
-      "manager": false,
-      "fullTime": false
-    },
-    {
-      "name": "Charlie Manson",
-      "location": "3",
-      "manager": true,
-      "fullTime": true,
-      "payRate": "11.25",
-      "id": 21
-    },
-    {
-      "name": "Pepper May",
-      "location": "8",
-      "manager": "",
-      "fullTime": true,
-      "payRate": "12.50",
-      "id": 22
-    },
-    {
-      "name": "Paris Hilton",
-      "location": "8",
-      "manager": false,
-      "fullTime": true,
-      "payRate": "10.99",
-      "id": 23
-    },
-    {
-      "name": "Kalvin Kool",
-      "location": "6",
-      "manager": false,
-      "fullTime": true,
-      "payRate": "13.95",
-      "id": 24
-    },
-    {
-      "name": "Patrick Panzi",
-      "location": "3",
-      "manager": false,
-      "fullTime": false,
-      "payRate": "10.50",
-      "id": 25
-    },
-    {
-      "name": "Eddie Vedder",
-      "location": "7",
-      "manager": false,
-      "fullTime": false,
-      "payRate": "9.59",
-      "id": 26
-    },
-    {
-      "name": "Adam Corolla",
-      "location": "2",
-      "manager": false,
-      "fullTime": false,
-      "payRate": "9.35",
-      "id": 27
-    },
-    {
-      "name": "Robert Palmer",
-      "location": "3",
-      "manager": false,
-      "fullTime": true,
-      "payRate": "13.45",
-      "id": 28
-    },
-    {
-      "name": "dddd",
-      "location": 6,
-      "manager": false,
-      "fullTime": true,
-      "payRate": "2.25",
-      "id": 29
-    },
-    {
-      "name": "Max von Siddow",
+      "name": "Will Vilmer",
       "location": 8,
       "manager": false,
       "fullTime": true,
-      "payRate": "17.95",
-      "id": 30
-    },
-    {
-      "name": "Billy Ray",
-      "location": 3,
-      "manager": false,
-      "fullTime": true,
-      "payRate": "11.95",
-      "id": 31
+      "payRate": "13.95",
+      "id": 16
     }
   ],
   "productTypes": [
@@ -897,6 +777,88 @@
       "customerId": 18,
       "purchaseLocationId": 8,
       "productId": 8
+    }
+  ],
+  "locationsEmployees": [
+    {
+      "id": 1,
+      "locationId": 1,
+      "employeeId": 1
+    },
+    {
+      "id": 2,
+      "locationId": 2,
+      "employeeId": 2
+    },
+    {
+      "id": 3,
+      "locationId": 3,
+      "employeeId": 3
+    },
+    {
+      "id": 4,
+      "locationId": 4,
+      "employeeId": 4
+    },
+    {
+      "id": 5,
+      "locationId": 5,
+      "employeeId": 5
+    },
+    {
+      "id": 6,
+      "locationId": 6,
+      "employeeId": 6
+    },
+    {
+      "id": 7,
+      "locationId": 7,
+      "employeeId": 7
+    },
+    {
+      "id": 8,
+      "locationId": 8,
+      "employeeId": 8
+    },
+    {
+      "id": 9,
+      "locationId": 2,
+      "employeeId": 9
+    },
+    {
+      "id": 10,
+      "locationId": 3,
+      "employeeId": 10
+    },
+    {
+      "id": 11,
+      "locationId": 3,
+      "employeeId": 11
+    },
+    {
+      "id": 12,
+      "locationId": 1,
+      "employeeId": 12
+    },
+    {
+      "id": 13,
+      "locationId": 3,
+      "employeeId": 13
+    },
+    {
+      "id": 14,
+      "locationId": 7,
+      "employeeId": 14
+    },
+    {
+      "id": 15,
+      "locationId": 7,
+      "employeeId": 15
+    },
+    {
+      "id": 16,
+      "locationId": 8,
+      "employeeId": 16
     }
   ]
 }
