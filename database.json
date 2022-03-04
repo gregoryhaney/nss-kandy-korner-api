@@ -299,6 +299,14 @@
       "fullTime": true,
       "payRate": "13.95",
       "id": 16
+    },
+    {
+      "name": "Harry Palms",
+      "location": 2,
+      "manager": true,
+      "fullTime": true,
+      "payRate": "18.90",
+      "id": 17
     }
   ],
   "productTypes": [
@@ -859,6 +867,11 @@
       "id": 16,
       "locationId": 8,
       "employeeId": 16
+    },
+    {
+      "id": 17,
+      "locationId": 2,
+      "employeeId": 17
     }
   ]
 }
