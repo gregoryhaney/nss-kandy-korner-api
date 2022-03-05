@@ -294,7 +294,7 @@
     },
     {
       "name": "Will Vilmer",
-      "location": 8,
+      "locationId": 8,
       "manager": false,
       "fullTime": true,
       "payRate": "13.95",
@@ -302,11 +302,27 @@
     },
     {
       "name": "Harry Palms",
-      "location": 2,
+      "locationId": 2,
       "manager": true,
       "fullTime": true,
       "payRate": "18.90",
       "id": 17
+    },
+    {
+      "name": "Bubba Gimp",
+      "locationId": 6,
+      "manager": true,
+      "fullTime": true,
+      "payRate": "14.35",
+      "id": 18
+    },
+    {
+      "name": "Spyder Priestly",
+      "locationId": 2,
+      "manager": false,
+      "fullTime": false,
+      "payRate": "9.40",
+      "id": 19
     }
   ],
   "productTypes": [
@@ -785,93 +801,6 @@
       "customerId": 18,
       "purchaseLocationId": 8,
       "productId": 8
-    }
-  ],
-  "locationsEmployees": [
-    {
-      "id": 1,
-      "locationId": 1,
-      "employeeId": 1
-    },
-    {
-      "id": 2,
-      "locationId": 2,
-      "employeeId": 2
-    },
-    {
-      "id": 3,
-      "locationId": 3,
-      "employeeId": 3
-    },
-    {
-      "id": 4,
-      "locationId": 4,
-      "employeeId": 4
-    },
-    {
-      "id": 5,
-      "locationId": 5,
-      "employeeId": 5
-    },
-    {
-      "id": 6,
-      "locationId": 6,
-      "employeeId": 6
-    },
-    {
-      "id": 7,
-      "locationId": 7,
-      "employeeId": 7
-    },
-    {
-      "id": 8,
-      "locationId": 8,
-      "employeeId": 8
-    },
-    {
-      "id": 9,
-      "locationId": 2,
-      "employeeId": 9
-    },
-    {
-      "id": 10,
-      "locationId": 3,
-      "employeeId": 10
-    },
-    {
-      "id": 11,
-      "locationId": 3,
-      "employeeId": 11
-    },
-    {
-      "id": 12,
-      "locationId": 1,
-      "employeeId": 12
-    },
-    {
-      "id": 13,
-      "locationId": 3,
-      "employeeId": 13
-    },
-    {
-      "id": 14,
-      "locationId": 7,
-      "employeeId": 14
-    },
-    {
-      "id": 15,
-      "locationId": 7,
-      "employeeId": 15
-    },
-    {
-      "id": 16,
-      "locationId": 8,
-      "employeeId": 16
-    },
-    {
-      "id": 17,
-      "locationId": 2,
-      "employeeId": 17
     }
   ]
 }
