@@ -10,31 +10,31 @@
       "id": 2,
       "address": "9 Calypso Center",
       "state": "TX",
-      "country": "United States"
+      "country": "USA"
     },
     {
       "id": 3,
       "address": "6528 Brickson Park Street",
       "state": "FL",
-      "country": "United States"
+      "country": "USA"
     },
     {
       "id": 4,
       "address": "9 Hazelcrest Circle",
       "state": "CO",
-      "country": "United States"
+      "country": "USA"
     },
     {
       "id": 5,
       "address": "1584 Golf View Crossing",
       "state": "TN",
-      "country": "United States"
+      "country": "USA"
     },
     {
       "id": 6,
       "address": "2380 Badeau Junction",
       "state": "GA",
-      "country": "United States"
+      "country": "USA"
     },
     {
       "id": 7,
@@ -46,7 +46,7 @@
       "id": 8,
       "address": "118 Warner Plaza",
       "state": "DC",
-      "country": "United States"
+      "country": "USA"
     }
   ],
   "products": [
@@ -323,6 +323,22 @@
       "fullTime": false,
       "payRate": "9.40",
       "id": 19
+    },
+    {
+      "name": "Willie Makeit",
+      "locationId": 4,
+      "manager": false,
+      "fullTime": true,
+      "payRate": "14.50",
+      "id": 20
+    },
+    {
+      "name": "Kelvin Degrees",
+      "locationId": 1,
+      "manager": true,
+      "fullTime": true,
+      "payRate": "19.20",
+      "id": 21
     }
   ],
   "productTypes": [
@@ -487,6 +503,12 @@
       "name": "Franchot Tour",
       "address": "96614 Moulton Trail",
       "email": "ftourj@uiuc.edu"
+    },
+    {
+      "name": "Mary",
+      "address": "666 Elm St",
+      "email": "mary@mary.uk",
+      "id": 21
     }
   ],
   "purchases": [
